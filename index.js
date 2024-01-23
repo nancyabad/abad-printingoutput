@@ -4,23 +4,22 @@ let a = 3;
 let b = 5;
 let c;
 
-let result = `a + b = ${a + b}\n
-a - b = ${a - b}\n
-a * b = ${a * b}\n
-a / b = ${a / b}\n
-a % b = ${a % b}\n
-a += b = ${(a += b)}\n
-a -= b = ${(a -= b)}\n
-a *= b = ${(a *= b)}\n
-a /= b = ${(a /= b)}\n
-a %= b = ${(a %= b)}\n
-a == b = ${a == b}\n
-a != b = ${a != b}\n
-a > b = ${a > b}\n
-a < b = ${a < b}\n
-!a && !c = ${!a && !c}\n
-!a || !c = ${!a || !c}\n
-`;
+let result = `a + b = ${a + b}` + "\n";
+result += `a - b = ${a - b}` + "\n";
+result += `a * b = ${a * b}` + "\n";
+result += `a / b = ${a / b}` + "\n";
+result += `a % b = ${a % b}` + "\n";
+result += `a += b = ${(a += b)}` + "\n";
+result += `a -= b = ${(a -= b)}` + "\n";
+result += `a *= b = ${(a *= b)}` + "\n";
+result += `a /= b = ${(a /= b)}` + "\n";
+result += `a %= b = ${(a %= b)}` + "\n";
+result += `a == b = ${a == b}` + "\n";
+result += `a != b = ${a != b}` + "\n";
+result += `a > b = ${a > b}` + "\n";
+result += `a < b = ${a < b}` + "\n";
+result += `!a && !c = ${!a && !c}` + "\n";
+result += `!a || !c = ${!a || !c}` + "\n";
 
 console.log(result);
 
